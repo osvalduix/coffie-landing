@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  gap: 32px;
+  margin: 32px;
+}
+
+.main__container1, .main__container2, .main__container3 {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  line-height: 140%;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  background-color: #dfff51;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
