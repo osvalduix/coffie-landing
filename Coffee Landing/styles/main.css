@@ -74,16 +74,24 @@
 }
 
 .ticker {
-  display: flex;
   width: 50%;
-  align-items: center;
-  gap: 32px;
   height: 80px;
+  overflow: hidden;
   border-bottom: 1px solid black;
-  position: absolute;
+  position: relative;
+  display: flex;
 }
 
-.ticker_papertext-first {
+.ticker_track {
+  display: flex;
+  gap: 32px;
+  width: max-content;
+}
+
+.ticker_papertext {
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 24px;
   display: flex;
   align-items: center;
   gap: 32px;
