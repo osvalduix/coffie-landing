@@ -14,6 +14,7 @@
   display: flex;
   align-items: center;
   padding: 0 24px;
+  justify-content: space-between;
   gap: 32px;
 }
 
@@ -21,28 +22,28 @@
   border: none;
   width: 157px;
   height: 52px;
+  background-color: #FB4B4D;
   color: #FFFFFF;
   font-size: 14px;
   line-height: 22px;
-  background-color: #FB4B4D;
 }
 
-.header__nav-left {
+.header__nav-left, .header__nav-right {
+  width: 100%;
   display: flex;
-  flex-grow: 1;
-}
-
-.header__nav-right {
-  display: flex;
-  flex-grow: 1;
+  justify-content: space-between;
 }
 
 .header__nav_list {
-  flex: 1;
   height: 52px;
   color: black;
-  background-color: white;
   text-decoration: none;
+  background-color: white;
   display: flex;
   align-items: center;
+  padding: 0 32px;
+}
+
+.header__nav_logo {
+  width: 200px;
 }
