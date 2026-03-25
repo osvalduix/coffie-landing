@@ -51,9 +51,11 @@
 .hero {
   display: flex;
   width: 100%;
+  border-bottom: 1px solid black;
 }
 
 .hero__left {
+  border-right: 1px solid black;
   width: 50%;
 }
 
@@ -107,7 +109,6 @@
 
 .hero__second {
   padding: 20px;
-  border-bottom: 1px solid black;
 }
 
 .hero__second-image {
@@ -123,16 +124,32 @@
   line-height: 65px;
   text-align: center;
   border-bottom: 1px solid black;
-  border-left: 1px solid black;
   padding: 80px 80px;
 }
 
 .hero__fourth {
   padding: 20px;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
 }
 
 .hero__fourth-image {
   width: 100%;
+}
+
+.scorpions__inside {
+  display: flex;
+  height: 20vh;
+  padding: 30px 60px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.scorpions__text {
+  display: flex;
+  font-size: 58px;
+  line-height: 65px;
+  text-align: center;
+  justify-content: center;
+  overflow-wrap: break-word;
+  width: 40%;
 }
