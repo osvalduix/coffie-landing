@@ -48,9 +48,17 @@
   width: 200px;
 }
 
+.hero {
+  display: flex;
+  width: 100%;
+}
+
+.hero__left {
+  width: 50%;
+}
+
 .hero__first {
   display: flex;
-  width: 50%;
   height: 60vh;
   border-bottom: 1px solid black;
   position: relative;
@@ -63,7 +71,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  aspect-ratio: 16 / 9;
 }
 
 .hero__first-top {
@@ -76,7 +83,6 @@
 }
 
 .ticker {
-  width: 50%;
   height: 80px;
   overflow: hidden;
   border-bottom: 1px solid black;
@@ -100,13 +106,33 @@
 }
 
 .hero__second {
-  display: flex;
-  width: 50%;
+  padding: 20px;
   border-bottom: 1px solid black;
 }
 
-.hero__second_image {
-  display: flex;
-  margin: 20px;
+.hero__second-image {
+  width: 100%;
+}
+
+.hero__right {
+  width: 50%;
+}
+
+.hero__third {
+  font-size: 58px;
+  line-height: 65px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  padding: 80px 80px;
+}
+
+.hero__fourth {
+  padding: 20px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.hero__fourth-image {
   width: 100%;
 }
