@@ -9,7 +9,7 @@
 
 .header {
   width: auto;
-  height: 111px;
+  height: 110px;
   border-bottom: 1px solid black;
   display: flex;
   align-items: center;
@@ -51,23 +51,25 @@
 .hero__first {
   display: flex;
   width: 50%;
-  height: 530px;
+  height: 60vh;
   border-bottom: 1px solid black;
-
   position: relative;
 }
 
 .hero__first-bg {
   position: relative;
   width: 95%;
+  height: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  aspect-ratio: 16 / 9;
 }
 
 .hero__first-top {
   position: absolute;
   width: 75%;
+  height: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -95,4 +97,16 @@
   display: flex;
   align-items: center;
   gap: 32px;
+}
+
+.hero__second {
+  display: flex;
+  width: 50%;
+  border-bottom: 1px solid black;
+}
+
+.hero__second_image {
+  display: flex;
+  margin: 20px;
+  width: 100%;
 }
