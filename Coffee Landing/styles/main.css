@@ -8,10 +8,10 @@
 }
 
 .header {
+  display: flex;
   width: auto;
   height: 110px;
   border-bottom: 1px solid black;
-  display: flex;
   align-items: center;
   padding: 0 24px;
   justify-content: space-between;
@@ -29,17 +29,17 @@
 }
 
 .header__nav-left, .header__nav-right {
-  width: 35%;
   display: flex;
+  width: 35%;
   justify-content: space-between;
 }
 
 .header__nav_list {
+  display: flex;
   height: 52px;
   color: black;
   text-decoration: none;
   background-color: white;
-  display: flex;
   align-items: center;
   padding: 0 32px;
 }
@@ -85,11 +85,11 @@
 }
 
 .ticker {
+  display: flex;
   height: 80px;
   overflow: hidden;
   border-bottom: 1px solid black;
   position: relative;
-  display: flex;
 }
 
 .ticker_track {
@@ -99,10 +99,10 @@
 }
 
 .ticker_papertext {
+  display: flex;
   white-space: nowrap;
   font-size: 16px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   gap: 32px;
 }
@@ -167,7 +167,8 @@
 }
 
 .bottles__greens {
-  display: flex;
+  display: inline-flex;
+  width: 100%;
   justify-content: space-between;
 }
 
